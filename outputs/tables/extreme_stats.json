@@ -1,0 +1,13 @@
+{
+  "junk_price_cars": 5,
+  "junk_price_share_all": 0.0001195228647240217,
+  "junk_price_share_big": 0.0015915119363395225,
+  "junk_prices_found": [
+    12345,
+    123456
+  ],
+  "dear_share_big": 0.15437665782493368,
+  "dear_share_all": 0.01178495446178854,
+  "underpriced_share_big": 0.5978779840848807,
+  "dear_threshold": 60000
+}

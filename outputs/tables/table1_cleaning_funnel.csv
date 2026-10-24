@@ -1,0 +1,9 @@
+Step,Rows remaining,Removed by this step,Percent of raw kept
+0. Raw listings,426880,0,100.0
+"1. Asking price $500-$200,000",384662,42218,90.1
+"2. Mileage 100-400,000 miles",376538,8124,88.2
+3. Year 1990-2021,364697,11841,85.4
+4. Make and model present,349959,14738,82.0
+5. Fuel and transmission present,346689,3270,81.2
+6. One advert per VIN (earliest kept),222079,124610,52.0
+7. Fingerprint match on rows with no VIN,209164,12915,49.0

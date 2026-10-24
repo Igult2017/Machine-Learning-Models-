@@ -1,0 +1,23 @@
+# The raw dataset - 1.35 GB, and cited by DOI rather than redistributed.
+# Run src/clean.py for the download instructions and the checksum to verify it.
+data/raw/
+
+# Trained models - the random forest alone is 530 MB and GitHub rejects
+# anything over 100 MB. Regenerate them with: python src/run_all.py
+outputs/models/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Word's lock file, created while a document is open
+~$*.docx
+
+# Kept in the repository on purpose:
+#   src/              the code
+#   data/processed/   the cleaned sample and predictions (7.7 MB) so the analysis
+#                     can be re-run without the 1.35 GB download
+#   outputs/figures/  the 15 charts
+#   outputs/tables/   the result tables
+#   docs/             the written sections
+#   notebooks/        the walkthrough

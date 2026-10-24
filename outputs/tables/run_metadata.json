@@ -1,0 +1,36 @@
+{
+  "n_train": 167331,
+  "n_test": 41833,
+  "band_cuts": [
+    7900.0,
+    17500.0
+  ],
+  "large_error_threshold": 10910.596204424677,
+  "fit_seconds": {
+    "Median guess": 1.1,
+    "Linear Regression": 3.8,
+    "Random Forest": 44.5,
+    "Gradient Boosting": 5.0
+  },
+  "best_params": {
+    "Median guess": {},
+    "Linear Regression": {},
+    "Random Forest": {
+      "n_estimators": 200,
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "max_depth": 30,
+      "_cv_mae": 3718.9
+    },
+    "Gradient Boosting": {
+      "min_samples_leaf": 10,
+      "max_leaf_nodes": 63,
+      "max_iter": 200,
+      "max_depth": 8,
+      "learning_rate": 0.05,
+      "_cv_mae": 3642.3
+    }
+  },
+  "source": "Zenodo record 10457828 - Craigslist Used Cars and Trucks (CC BY 4.0)",
+  "source_md5": "d7462a2fb71459c76170c24a6fd0578a"
+}

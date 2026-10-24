@@ -1,0 +1,23 @@
+Column,Percent blank
+county,100.0
+size,71.8
+cylinders,41.6
+condition,40.8
+VIN,37.7
+drive,30.6
+paint_color,30.5
+type,21.8
+manufacturer,4.1
+title_status,1.9
+long,1.5
+lat,1.5
+model,1.2
+odometer,1.0
+fuel,0.7
+transmission,0.6
+year,0.3
+posting_date,0.0
+price,0.0
+region,0.0
+id,0.0
+state,0.0

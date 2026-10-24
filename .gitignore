@@ -2,10 +2,6 @@
 # Run src/clean.py for the download instructions and the checksum to verify it.
 data/raw/
 
-# Trained models - the random forest alone is 530 MB and GitHub rejects
-# anything over 100 MB. Regenerate them with: python src/run_all.py
-outputs/models/
-
 # Python bytecode
 __pycache__/
 *.pyc
@@ -15,9 +11,11 @@ __pycache__/
 
 # Kept in the repository on purpose:
 #   src/              the code
-#   data/processed/   the cleaned sample and predictions (7.7 MB) so the analysis
+#   data/processed/   the cleaned sample and predictions (7.6 MB) so the analysis
 #                     can be re-run without the 1.35 GB download
+#   outputs/models/   the four trained models. The random forest is 505 MB and is
+#                     stored through Git LFS; retrieving it needs `git lfs` installed.
+#                     Without LFS you get a small pointer file instead of the model.
 #   outputs/figures/  the 15 charts
 #   outputs/tables/   the result tables
-#   docs/             the written sections
 #   notebooks/        the walkthrough
